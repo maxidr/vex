@@ -142,7 +142,7 @@ vexDialogFactory = ($, vex) ->
 
 if typeof define is 'function' and define.amd
     # AMD
-    define ['jquery', 'vex'], vexDialogFactory
+    define ['jquery', 'vex-js'], vexDialogFactory
 else if typeof exports is 'object'
     # CommonJS
     module.exports = vexDialogFactory require('jquery'), require('./vex.js')
